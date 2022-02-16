@@ -18,7 +18,7 @@ public class App {
 
         float podielFloat = 2/3.0f;   //mod
         System.out.println(podielFloat);
-        
+
         int cislo=2;
         switch (cislo) {
             case 1:
@@ -31,6 +31,19 @@ public class App {
                 System.out.println("cislo je ine");
         }
 
+        int[] pole = new int[10];
+        for (int i =0;i< pole.length;i++){
+            pole[i] = i;
+        }
+
+        for (int i =0;i< pole.length;i++){
+           vypis(i);
+        }
+
+    }
+
+    public static void vypis(int a){
+        System.out.println(a);
     }
 }
 
